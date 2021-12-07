@@ -1,0 +1,35 @@
+{
+  "name": "poker-hand-rankings",
+  "version": "1.0.0",
+  "description": "I got into poker recently. This repository is meant to provide an intuitive interface for poker players to visualize the best and worst of Poker hands!",
+  "main": "./src/index.js",
+  "scripts": {
+    "start": "tsc && node ./built/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "lint": "tslint -c tslint.json src/**/*.ts",
+    "prepublish": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tclare/poker-hand-rankings.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tclare/poker-hand-rankings/issues"
+  },
+  "homepage": "https://github.com/tclare/poker-hand-rankings#readme",
+  "dependencies": {
+    "typescript": "^4.5.2"
+  },
+  "files": [
+    "./bin/*",
+    "./lib/*"
+  ],
+  "typings": "./lib/index.d.ts",
+  "devDependencies": {
+    "tslint": "^6.1.3"
+  }
+}

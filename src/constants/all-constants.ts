@@ -1,0 +1,1 @@
+export const SIMULATED_HANDS = 1000000;
